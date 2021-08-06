@@ -15,7 +15,7 @@ import cv2 as cv
 
 print("Creating datset...")
 outfilename = "screws"
-filepath = "G:\School\MachineLearning\myWorkAfterCollege\screws\\"
+filepath = ".\screws\\"
 imagecount = 18
 imageres = 64
 images = np.empty([imagecount,imageres,imageres])

@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 images = np.load("screws_images.npy")
 labels = np.load("screws_labels.npy")
-print(len(images))
+
 
 
 for i in range(len(images)):
