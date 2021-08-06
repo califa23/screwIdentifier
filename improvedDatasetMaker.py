@@ -19,8 +19,8 @@ import cv2 as cv
 
 
 datasetName = "screws"
-filepath = ".\screws\\"
-label = ["phillips","other","torx"]
+filepath = ".\screwImages\\"
+label = ["phillips","slotted","torx"]
 imagecount = 18
 imageres = 64
 images = np.empty([imagecount,imageres,imageres])
@@ -46,7 +46,7 @@ for i in range(len(label)):
 print('images shape: {0}'.format(images.shape))
 print('labels shape: {0}'.format(labels.shape))
 
-print(tuple(zip(images,labels)))
+#print(tuple(zip(images,labels)))
 
 np.save(datasetName+"_images",images)
 np.save(datasetName+"_labels",labels)
