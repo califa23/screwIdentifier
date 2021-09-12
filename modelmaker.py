@@ -28,8 +28,8 @@ model.compile(optimizer='adam',
               loss='sparse_categorical_crossentropy',
               metrics=['accuracy'])
 model.fit(x, y, epochs=EPOCHS)
-print("Created dataset successfully ")
+print("\nCreated model successfully ")
 
 #save model
 model.save(model_name)
-print("Saved model as " + model_name)
+print("\nSaved model as ''" + model_name + "''")
