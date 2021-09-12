@@ -2,10 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-
 images = np.load("images.npy")
 labels = np.load("labels.npy")
-
 
 
 for i in range(len(images)):
