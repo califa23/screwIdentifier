@@ -1,7 +1,7 @@
 # Screw Identifier
 ## Overview
 Using openCV and tensorflow we can identify different types of screw heads. This basic demonstration can be expanded on and can have many applications in the real world.
-Some of these applications include construction, manufacturing, and machine repair work in enviornments that may be too hostile for humans. 
+Some of these applications include construction, manufacturing, and machine repair work in environments that may be too hostile for humans. 
 
 ## Files
 
@@ -14,3 +14,5 @@ Some of these applications include construction, manufacturing, and machine repa
 * viewing.py
   * This file allows us to view the images in the created dataset from datasetmaker.py. (Mainly for debugging purposes.)
 
+## More Information
+For more information and a detailed walk through: http://johncalifano.info/#/app-projects-screw-identifier
