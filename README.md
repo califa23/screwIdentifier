@@ -6,7 +6,7 @@ Some of these applications include construction, manufacturing, and machine repa
 ## Files
 
 * datasetmaker.py
-  * This file taks the images from the image folder and creates a dataset of necessary dimensions to train the network.
+  * This file takes the images from the image folder and creates a dataset of necessary dimensions to train the network.
 * modelmaker.py
   * This file uses tensorflow to train and create a model from the dataset provided by datasetmaker.py.
 * tester.py
